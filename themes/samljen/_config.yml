@@ -1,0 +1,32 @@
+# Favicon
+favicon: /favicon.ico
+
+# SEO
+keywords: 
+
+# Site title separator
+separator: '-'
+
+# RSS
+rss: /atom.xml
+
+# SNS config
+sns:
+  GitHub: /
+  RSS: /
+  
+# Nav menu
+menu:
+  Home: /
+  Archives: /archives
+
+email: 
+search: true
+
+# Home config
+home:
+-
+  path: 
+  title: 
+  desc: 
+

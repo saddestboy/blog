@@ -1,0 +1,92 @@
+base_info:
+  title: saddestboy's sweet blog
+  author: saddestboy
+  url: saddestboy.github.io/blog/
+
+style:
+  hover:
+    scale: true
+    shadow: false
+  first_screen:
+    enable: false
+  scroll:
+    progress_bar: true
+    percent: false
+
+social_contact:
+  enable: true
+  links:
+    github: github.com/saddestboy
+    email: descent@saddestboy.anonaddy.me
+
+menu:
+  Home: /
+  Study: /study
+  Games: /play
+  Archives: /archives
+
+home_article:
+  category:
+    enable: false     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: false     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+
+post:
+  word_count:
+    enable: false
+    wordcount: false
+    min2read: false
+  author_label:
+    enable: false
+    auto: false
+    custom_label_list: ["玫兰莎", "梅拦啥", "没拦鲨", "没蓝杀"]
+
+code_copy:
+  enable: true
+  style: mac
+toc:
+  enable: true
+  number: false
+  expand_all: true
+  init_open: true
+
+copyright_info:
+  enable: true
+
+website_count:
+  busuanzi_count:
+    enable: true
+    site_uv: true
+    site_pv: true
+    page_pv: true
+
+local_search:
+  enable: true
+  preload: true
+
+comment:
+  enable: false
+
+rss:
+  enable: false #回来修改
+
+lazyload:
+  enable: true
+
+cdn:
+  enable: true
+
+pjax:
+  enable: false
+
+footer:
+  since: 2022
+  icp:
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
