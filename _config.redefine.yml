@@ -10,8 +10,10 @@ style:
   first_screen:
     enable: false
   scroll:
-    progress_bar: true
-    percent: false
+    progress_bar: 
+      enable: true
+    percent: 
+      enable: false
 
 social_contact:
   enable: true
@@ -70,7 +72,7 @@ comment:
   enable: false
 
 rss:
-  enable: false #回来修改
+  enable: true #回来修改
 
 lazyload:
   enable: true
@@ -90,3 +92,8 @@ search:
   field: post
   content: true
   format: striptags
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
